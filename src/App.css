@@ -1,0 +1,262 @@
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #2D4B73;
+    color: #2D4B73;
+    padding-left: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 24px;
+    background-color: #EDC605;
+  }
+
+
+  .form-box {
+    width: 738px;
+    padding: 20px;
+    background-color: #F29F05;
+    border-radius: 8px;
+    border: 1px solid #E05C44;
+    box-shadow: 0 2px 4px #E05C44;
+    color: #2D4B73;
+  }
+
+  .full-screen-rectangle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    right: 0;
+    bottom: 0;
+    background-color: #f5f5f5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #2D4B73;
+  }
+
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 28px;
+    margin-bottom: 24px;
+    color: #2D4B73;
+    text-align: center;
+    border-bottom: 2px solid #E05C44;
+    background-color: #F29F05;
+    padding: 8px;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+
+  h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #EDC605;
+    border-bottom: 2px solid #E05C44;
+    background-color: #2D4B73;
+    padding: 6px;
+    border-radius: 4px;
+    margin-right: 20px;
+  }
+
+  h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 15px;
+    margin-bottom: 12px;
+    color: #E05C44;
+    border-bottom: 1px solid #EDC605;
+    background-color: #2D4B73;
+    padding: 4px;
+    border-radius: 4px;
+    margin-right: 20px;
+    
+  }
+
+  p {
+    margin-bottom: 16px;
+    line-height: 1.5;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #2D4B73;
+    text-align: center;
+    
+  }
+
+  ul,
+  ol {
+    margin: 16px 0;
+    padding-left: 20px;
+    font-family: 'Roboto Slab', sans-serif;
+    color: #2D4B73;
+  }
+
+  label {
+    color: #2D4B73;
+    margin-top: 20px;
+    font-family: 'Roboto Slab', sans-serif;
+    font-weight: bold;
+  }
+
+  .form-box-moeda {
+    width: 738px;
+    padding: 20px;
+    background-color: #F29F05;
+    border-radius: 8px;
+    border: 1px solid #E05C44;
+    box-shadow: 0 2px 4px #E05C44;
+    font-weight: bold;
+  }
+
+  .form-box-autonomia {
+    width: 738px;
+    padding: 20px;
+    background-color: #F29F05;
+    border-radius: 8px;
+    border: 1px solid #E05C44;
+    box-shadow: 0 2px 4px #E05C44;
+    font-weight: bold;
+  }
+
+  .economizar_combustivel {
+    background-color: #000000;
+    text-align: center;
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 16px;
+    margin-bottom: 24px;
+    font-family: 'Roboto Slab', sans-serif;
+    margin-right: 20px
+  }
+
+  .economizar_combustivel p {
+    margin-bottom: 8px;
+    color: #00020F;
+  }
+
+  input[type='number'] {
+    width: 120px;
+    padding: 6px;
+    margin: 10px;
+    border-radius: 4px;
+    border: 1px solid #2D4B73;
+    background-color: #CACBDF;
+    color: #2D4B73;
+  }
+
+  select {
+    padding: 5px;
+    border-radius: 4px;
+    border: 1px solid #2D4B73;
+    background-color: #CACBDF;
+    color: #2D4B73;
+    margin: 10px;
+    font-family: 'Roboto Slab', sans-serif;
+  }
+
+  .Botão {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #2D4B73;
+    color: #ffffff  ;
+    border: 1px solid #CACBDF;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 1s ease;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+    margin-left: 15px;
+  }
+
+  .Botão:hover {
+    background-color: #CACBDF;
+    color: #000000;
+    border: 1px solid #2D4B73;
+  }
+
+  .section {
+    margin-bottom: 24px;
+  }
+
+  .section-title {
+    font-size: 24px;
+    margin-bottom: 16px;
+    color: #ffffff;
+    background-color: #000000;
+    padding: 6px;
+    border-radius: 4px;
+  }
+
+  .section-content {
+    margin-bottom: 16px;
+  }
+
+  .section-content p {
+    margin-bottom: 8px;
+  }
+
+  .autonomy-calculation {
+    margin-bottom: 24px;
+    padding: 16px;
+    background-color: #000000;
+    border-radius: 4px;
+  }
+
+  .autonomy-inputs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-bottom: 16px;
+  }
+
+  .autonomy-inputs label {
+    margin-right: 16px;
+    color: #ffffff;
+  }
+
+  .autonomy-inputs input,
+  .autonomy-inputs select {
+    padding: 8px;
+    margin-right: 16px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+  }
+
+  .autonomy-calculate-button {
+    margin-bottom: 16px;
+    margin-top: 20px;
+  }
+
+  .autonomy-result {
+    font-size: 18px;
+    color: #ffffff;
+  }
+
+  .tips {
+    margin-bottom: 24px;
+    padding: 16px;
+    background-color: #000000;
+    border-radius: 4px;
+    font-family: 'Roboto Slab', sans-serif;
+  }
+
+  .tips li {
+    margin-bottom: 8px;
+    font-weight: bold;
+    background-color: #ffffff;
+    padding: 4px;
+    border-radius: 4px;
+    color: #000000;
+  }
+  .mensagem-erro {
+    color: red;
+  }
